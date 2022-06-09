@@ -20,27 +20,35 @@ var numberDogs = 0
 console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
+console.log(numberTeachers > numberStudents)
+
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
+console.log(numberTeachers < numberStudents)
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
 // this should log: false
+console.log(numberTeachers === numberStudents)
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
+console.log(numberTeachers !== numberStudents)
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
+console.log(numberStudents >= 20)
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
+console.log(numberStudents >= 21)
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
+console.log(numberStudents <= 20)
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-
+console.log(numberStudents <= 21)
 
 // #-------------------
 // PART 2: Articulating what you are doing
@@ -52,21 +60,23 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
-// YOU DO: Explain.
+// YOU DO: Print the comparison 4 is less than 9. It will print true.
 
 var books = 3;
 console.log(4 < books);
-// YOU DO: Explain.
+// YOU DO: Print 4 is less than the variable books. Establishing that the variable books equals 3. it will print false
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+// YOU DO: Explain. print the variables friends is greater than siblings. Establishing that the variable friends equals 6 and the variable siblings equals 2.
+// it will print true.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees != meals);
-// YOU DO: Explain.
+// YOU DO: Explain. Print the variables attendees is not equal to meals. Establishing the variable attendees is equal to 9 and the variable meals inspect
+// equal to 8. It will print true.
 
 
 // #-------------------
@@ -89,15 +99,17 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+console.log(lovesToPlay && lovesTreats)
 
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log( lovesToPlay && lovesDogPark)
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log( lovesToPlay || lovesDogPark)
 
 // Determine if the dog loves to play and is a puppy
+console.log( lovesToPlay && age)
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: =1 becuase age is 1. I think you would write more code to an if statement suggesting if age<1 then it would be a puppy.
